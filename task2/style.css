@@ -1,0 +1,48 @@
+body {
+    background-image: url(../task2/img/bg.jpg);
+}
+.asteroid {
+    position: relative;
+    width: 150px;
+    left: 1200px;
+    top: 170px;   
+}
+.planet1 {
+    position: relative;
+    left: 450px;
+    width: 200px;
+    top: 110px;
+}
+.planet2 {
+    position: absolute;
+    width: 18%;
+    top: 18%;
+    left: 21%;
+}
+.planet3 {
+    position: absolute;
+    width: 25%;
+    top: 33%;
+    left: 29%;
+    z-index: 2;
+}
+.ship {
+    position: absolute;
+    width: 5%;
+    top: 36%;
+    left: 29%;
+    z-index: 1;
+}
+.superman {
+    width: 130px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.ufo {
+    position: absolute;
+    top: 60%;
+    right: 1150px;
+    width: 120px;
+    z-index: 3;
+}

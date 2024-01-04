@@ -1,0 +1,13 @@
+.weight_text {
+    font-weight: bold;
+}
+.italic_text {
+    font-style: italic;
+}
+.List {
+    list-style-type: none;
+}
+ol {
+    background-color: rgb(200, 250, 139);
+    color: rgb(228, 83, 83);
+}
